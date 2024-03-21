@@ -1,7 +1,3 @@
-"engines": {
-    "node": "10.16.0"
-  },
-
 {
   "name": "stemsnippetsai",
   "version": "1.0.0",
