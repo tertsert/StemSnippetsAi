@@ -1,5 +1,12 @@
 const fs = require('node:fs');
 const readline = require('node:readline');
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`)
+})
 
 require("dotenv").config({ path: __dirname + "/.env" });
 const { twitterClient } = require("./twitterClient.js")
